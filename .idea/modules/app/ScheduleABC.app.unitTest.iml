@@ -15,8 +15,13 @@
             <stringArg name="classpath">
               <args>
                 <arg>$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/b3d042a585f75f72fd4c19bbbc287000/transformed/navigation-compose-2.4.0-alpha10-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/064ad44d5507381ef62fdf95c71cbe6c/transformed/activity-compose-1.3.1-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/493f2a3fd381ddb3ace746cb9182fd99/transformed/navigation-runtime-ktx-2.4.0-alpha10-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/c1c5b4d5852daec41f39981e442b08cf/transformed/navigation-runtime-2.4.0-alpha10-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/0540142831fd42f5451f669c5c00111a/transformed/activity-ktx-1.3.1-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/11bdd9bbd27abef7eb6f58233aab5fd8/transformed/navigation-common-ktx-2.4.0-alpha10-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/73cea458c45a2fdbc697715266933567/transformed/navigation-common-2.4.0-alpha10-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/16a50826536a0e8530280ee3768630d5/transformed/lifecycle-runtime-ktx-2.3.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/87afc57acc9f117c46227bd6f7b1bbc5/transformed/ui-tooling-1.1.0-beta01-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/b99fb7ac1117a48d252eb67915019a40/transformed/material-1.1.0-beta01-api.jar</arg>
@@ -26,6 +31,7 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/5402c7c3432dca9032b1c249889c549f/transformed/foundation-1.1.0-beta01-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/f2500d87c2df55477c82e668425646f5/transformed/material-icons-core-1.1.0-beta01-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/2d02878763f749b23264d3bb4a978dfe/transformed/animation-1.1.0-beta01-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/a652b620279fb7e94015fc2fb8a3593e/transformed/lifecycle-viewmodel-compose-2.4.0-rc01-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/0b45bd35ce8eaeb27b13b31b8cc1972e/transformed/foundation-layout-1.1.0-beta01-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/1888453fc8a47f804329f54a12460a19/transformed/ui-1.1.0-beta01-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/0629520f3e96ec506c050f5f8e6b43f9/transformed/runtime-saveable-1.1.0-beta01-api.jar</arg>
@@ -158,6 +164,12 @@
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.activity:activity-ktx:1.3.1@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.savedstate:savedstate-ktx:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-compose:2.4.0-alpha10@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-viewmodel-compose:2.4.0-rc01@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-runtime-ktx:2.4.0-alpha10@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-runtime:2.4.0-alpha10@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-common:2.4.0-alpha10@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-common-ktx:2.4.0-alpha10@aar" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="ScheduleABC.app.main" />
 </module>
