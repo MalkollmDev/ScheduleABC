@@ -5,9 +5,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.malkollm.scheduleabc.Screen
-import com.malkollm.scheduleabc.components.auth.DetailScreen
-import com.malkollm.scheduleabc.components.auth.HomeScreen
-import com.malkollm.scheduleabc.components.auth.LoginScreen
+import com.malkollm.scheduleabc.components.auth.*
 
 @Composable
 fun SetupNavGraph(
@@ -15,17 +13,27 @@ fun SetupNavGraph(
 ) {
     NavHost(
         navController = navController,
-        startDestination = Screen.Home.route
+        startDestination = Screen.Login.route
     ) {
-        composable(
-            route = Screen.Home.route
-        ) {
-            HomeScreen(navController = navController)
-        }
         composable(
             route = Screen.Login.route
         ) {
             LoginScreen(navController = navController)
+        }
+        composable(
+            route = Screen.SignUp.route
+        ) {
+            SignUpScreen(navController = navController)
+        }
+        composable(
+            route = Screen.ResetPass.route
+        ) {
+            ResetPassScreen(navController = navController)
+        }
+        composable(
+            route = Screen.Home.route
+        ) {
+            HomeScreen(navController = navController)
         }
         composable(
             route = Screen.Detail.route
