@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "724523900021",
+    "project_id": "scheduleabc-e437f",
+    "storage_bucket": "scheduleabc-e437f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724523900021:android:e6f992e4832f9c7e386c3c",
+        "android_client_info": {
+          "package_name": "com.malkollm.scheduleabc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724523900021-bbvff3f1vj7q9ed0k47ooomvntakgqlh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjUSiyjUwDC_NfuJWifWbpRqPOgZz7mwM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724523900021-bbvff3f1vj7q9ed0k47ooomvntakgqlh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
